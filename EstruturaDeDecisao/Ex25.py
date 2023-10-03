@@ -24,6 +24,6 @@ if pontos == 2:
 elif 3 <= pontos < 5:
     print("Cúmplice.")
 elif pontos == 5:
-    print("Assassin@)")
+    print("Assassin@.")
 else:
     print("Inocente.")
