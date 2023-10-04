@@ -3,8 +3,8 @@
 
 while True:
     nums = list(map(float, input("Insira 5 (cinco) números: ").split()))
-    if len(nums) < 5:
-        print("\nMenos de 5 números informados. Tente novamente.")
+    if len(nums) < 5 or len(nums) > 5:
+        print("\nPor favor, informe 5 números.")
         continue
     else: print(f"O maior número da lista é: {max(nums)}")
     break
